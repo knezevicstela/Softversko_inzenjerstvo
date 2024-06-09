@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('pozadinabijelo.jpg') center;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #ff007b;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.login-box h2 {
+    color: #ff007b;
+    margin-top: 0;
+}
+
+.login-box label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box input[type="submit"] {
+    background-color: #ff007b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #e6006b;
+}
+
+.login-box p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.login-box a {
+    color: #ff007b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
